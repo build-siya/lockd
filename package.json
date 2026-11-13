@@ -1,0 +1,25 @@
+{
+  "name": "lockd-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build --outDir docs --emptyOutDir"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^1.2.3",
+    "@supabase/supabase-js": "^2.119.0",
+    "mp4-muxer": "^5.2.2",
+    "preact": "^11.2.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.6",
+    "vite": "^8.3.8"
+  },
+  "type": "module"
+}
